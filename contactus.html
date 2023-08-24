@@ -7,38 +7,28 @@
     <link rel="icon" href="favicon.ico">
     <title>Contact Us - Bethany Tutoring</title>
     <style>
-       = body {
-            font-family: Arial, sans-serif;
-            margin: 0;
+       /* Reset default list styles and remove link underlines */
+        ul {
+            list-style: none;
             padding: 0;
-            background-color: #f0f0f0;
         }
 
-        .navbar {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
         }
 
-        .navbar a {
-            color: white;
+        /* Style links */
+        nav a {
             text-decoration: none;
-            margin: 0 15px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
             color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease; /* Add transition effect */
         }
 
-        p {
-            font-size: 18px;
-            color: #555;
+        /* Hover animation */
+        nav a:hover {
+            color: #FF5733; /* Change color on hover */
         }
     </style>
 </head>
