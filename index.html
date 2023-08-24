@@ -1,13 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" href="favicon.ico">
-    <title>Bethany Tutoring</title>
     <style>
-              /* Reset default list styles and remove link underlines */
+        /* Reset default list styles and remove link underlines */
         ul {
             list-style: none;
             padding: 0;
@@ -31,20 +26,242 @@
             color: #FF5733; /* Change color on hover */
         }
     </style>
+    <title>Home</title>
 </head>
 <body>
-    <div class="navbar">
-        <div class="container">
-            <a href="index.html">Home</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="contactus.html">Contact Us</a> <!-- New link redirect -->
-            <!-- You can add more link redirects here -->
-        </div>
-    </div>
-    
-    <div class="container">
-        <h1>Bethany Tutoring</h1>
-        <p>Welcome to Bethany Tutoring</p>
-    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to My Website</h1>
+
+    <!-- Rest of your content goes here -->
+
 </body>
 </html>
+aboutme.html:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Reset default list styles and remove link underlines */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        /* Style links */
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease; /* Add transition effect */
+        }
+
+        /* Hover animation */
+        nav a:hover {
+            color: #FF5733; /* Change color on hover */
+        }
+    </style>
+    <title>About Me</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>About Me</h1>
+
+    <!-- Rest of your content goes here -->
+
+</body>
+</html>
+contactus.html:
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Reset default list styles and remove link underlines */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        /* Style links */
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s ease; /* Add transition effect */
+        }
+
+        /* Hover animation */
+        nav a:hover {
+            color: #FF5733; /* Change color on hover */
+        }
+    </style>
+    <title>Contact Us</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+    <!-- Rest of your content goes here -->
+
+</body>
+</html>
+Please note that embedding CSS directly into HTML is not always the best practice for larger projects or for maintainability. In real-world scenarios, it's often recommended to keep your HTML and CSS in separate files to keep your code organized and easier to manage.
+
+
+
+
+User
+how do i add an image int ogithub
+ChatGPT
+To add an image to a GitHub repository, you need to follow these steps:
+
+Upload the Image:
+
+Start by uploading your image file to your GitHub repository. You can do this in two ways:
+
+Option 1: Drag and Drop
+
+Open your repository on GitHub.
+Navigate to the directory where you want to upload the image.
+Drag and drop the image file from your computer into the repository directory. This will trigger the upload process.
+Option 2: Upload Button
+
+Open your repository on GitHub.
+Navigate to the directory where you want to upload the image.
+Click the "Add file" button and select "Upload files."
+Choose your image file and follow the prompts to upload it.
+Commit Changes:
+
+After uploading the image, you'll need to commit your changes to the repository:
+
+Add a brief description of your changes in the "Commit changes" section.
+Optionally, you can add an extended description.
+Select the option to "Commit directly to the main branch" or create a new branch if you prefer.
+Accessing the Image:
+
+Once the image is uploaded and committed, you can access it using its URL. The URL will be in the format:
+
+ruby
+Copy code
+https://github.com/username/repository-name/raw/main/path/to/image.jpg
+Replace username, repository-name, and path/to/image.jpg with the appropriate values for your repository and image location.
+
+Using the Image in Markdown:
+
+If you want to use the image in your repository's Markdown files (such as a README.md file), you can do so using the following syntax:
+
+markdown
+Copy code
+![Alt Text](https://github.com/username/repository-name/raw/main/path/to/image.jpg)
+Replace Alt Text with a description of the image, and the URL with the actual URL of your image.
+
+Remember that images hosted on GitHub may have limitations in terms of file size and bandwidth. For larger or frequently accessed images, you might want to consider using specialized image hosting services or content delivery networks (CDNs).
+
+Keep in mind that the process described here is for adding images directly to your repository. If you're looking to add images to other platforms using your GitHub repository, the process might be slightly different, depending on the platform's integration with GitHub.
+
+
+
+
+User
+can you make it so that it adds "logo.png" on the top left of the navigation bar
+ChatGPT
+Certainly! To add a logo image to the top left of the navigation bar in your HTML pages, you'll need to modify your existing code. Here's how you can do it:
+
+Prepare Your Logo:
+
+Make sure you have an image file named logo.png that you want to use as your logo. Upload this image to your GitHub repository following the steps I mentioned earlier.
+
+Update the HTML:
+
+Modify your HTML code to include the logo image in the navigation bar. I'll provide the updated code for each of your pages.
+
+index.html:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Your existing CSS styles here */
+
+        /* Add logo style */
+        nav img {
+            height: 40px; /* Adjust the height as needed */
+            margin-right: 10px; /* Space between logo and links */
+        }
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="logo.png" alt="Logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>Welcome to My Website</h1>
+
+    <!-- Rest of your content goes here -->
+
+</body>
+</html>
+aboutme.html:
+
+html
+Copy code
+<!-- Similar to index.html, but use the logo image -->
+contactus.html:
+
+html
+Copy code
+<!-- Similar to index.html, but use the logo image -->
+Commit Changes:
+
+After you've updated the HTML files, commit your changes to your GitHub repository.
+
+By adding the img tag within the nav tag, you're placing the logo image inside the navigation bar. Adjust the height and margin-right values in the CSS to suit your design preferences.
+
+Remember to adjust the paths in the src attribute of the img tag to correctly point to the location of your uploaded logo.png image within your GitHub repository.
+
+
+
+
+
