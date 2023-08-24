@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="favicon.ico">
-    <title>About Us - Bethany Tutoring</title>
+    <title>Contact Us - Bethany Tutoring</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,15 +46,25 @@
     <div class="navbar">
         <div class="container">
             <a href="index.html">Home</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="contactus.html">Contact Us</a>
         </div>
     </div>
     
     <div class="container">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum tristique purus, eu posuere nisl vehicula in. Fusce nec metus eu odio laoreet feugiat. Donec quis purus et nisl tincidunt facilisis non in mi.</p>
-        <p>Nullam dictum, quam a interdum consectetur, libero ex tristique ex, ac vulputate quam ex in odio. Nulla facilisi. Aliquam erat volutpat.</p>
+        <h1>Contact Us</h1>
+        <p>If you have any questions or inquiries, feel free to contact us using the form below:</p>
+        
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            
+            <input type="submit" value="Send">
+        </form>
     </div>
 </body>
 </html>
